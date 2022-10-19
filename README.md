@@ -1,5 +1,4 @@
 # Path Finder App
-
 ## written with Graph algos
  - Weighted Algos
     - djikstra
@@ -14,3 +13,5 @@
 * draggable walls
 ## Result
 <img src="sample.png" alt="sample" >
+
+[click here!](https://sweet-pavlova-aba443.netlify.app/ "Path Finder") to checkout the Path Finder in Action
