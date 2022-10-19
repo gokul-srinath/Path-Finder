@@ -1,0 +1,74 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(50,0fr);
+    justify-content: center;
+    align-content: center;
+    height: 100%;   
+}
+
+
+.pathfinder {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+    /* position: relative; */
+}
+
+.topic {
+    font-size: 2rem;
+    color: #eee;
+}
+
+.header {
+    background-color: rgb(12, 53, 71);
+    display: flex !important;
+    
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    display: block;
+    gap: 1rem;
+    position: relative;
+}
+
+.button{
+    position: relative;
+    left: 50%;
+}
+
+.button > button{
+    color: #fff;
+    /* border: 1px solid #81F9C0; */
+    border: 0;
+    outline: 0;
+    /* font-weight: bold; */
+    letter-spacing: 1px;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    background-color: rgba(75, 218, 240, 0.75);
+
+    
+}
+
+.select > select{
+    color: rgba(75, 218, 240, 0.75);
+    border: 1px solid rgba(75, 218, 240, 0.75);
+    outline: none;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(12, 53, 71);
+
+}
+
+option{
+    color: #fff;
+    font-size: 1rem;
+    background-color: rgb(12, 53, 71);
+}
+
