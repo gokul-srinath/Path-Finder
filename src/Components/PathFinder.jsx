@@ -304,6 +304,7 @@ const handleEventChange = (event) => {
   return (
     <div className="pathfinder">    
     <div className="header">
+      <div className="other">
       <div className="topic">Path Finder</div>
       
       <div className="select">
@@ -314,14 +315,10 @@ const handleEventChange = (event) => {
             <option value={"dfs"}>DFS</option>
           </select>
       </div>
+      </div>
       <div className="button">
         <button onClick={clearPath}>clear Path</button>  
-      </div>
-      <div className="button">
-      
         <button onClick={findPath}>Find Path</button>
-      </div>
-      <div className="button">
         <button onClick={buildMaze}>Build Walls</button>
       </div>
     </div>

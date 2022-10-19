@@ -22,21 +22,27 @@
 
 .header {
     background-color: rgb(12, 53, 71);
-    display: flex !important;
-    
-    flex-direction: row;
-    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    flex: 2 1 auto;
     width: 100vw;
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: 1rem;
-    display: block;
-    gap: 1rem;
     position: relative;
+    
+}
+
+.other {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;    
+
 }
 
 .button{
     position: relative;
-    left: 50%;
+    margin-right: 2rem;
 }
 
 .button > button{
@@ -49,10 +55,11 @@
     font-size: 1rem;
     padding: 1rem 1.5rem;
     border-radius: 5px;
+    margin: 0 1rem;
     background-color: rgba(75, 218, 240, 0.75);
-
-    
 }
+
+
 
 .select > select{
     color: rgba(75, 218, 240, 0.75);
